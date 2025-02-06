@@ -1,0 +1,1 @@
+Within the functions, we can see that the main fucntion looks for a variable local_38[0] to be 10, then it returns the text "!crackme!", indicatign a successful input.  It took me some time to discren that the program is run then input is taken in.

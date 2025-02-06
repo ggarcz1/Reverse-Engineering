@@ -1,0 +1,27 @@
+Within the functions in the program, there is the following function:
+
+bool validate_key(int param_1)
+
+{
+  return param_1 % 0x4c7 == 0;
+}
+
+
+
+this takes the param_1, which is identified as the sscanf
+
+
+  local_10 = *(long *)(in_FS_OFFSET + 0x28);
+  printf("Enter your key:  ");
+  __isoc99_scanf(&DAT_0010201a,&local_14);
+  iVar1 = validate_key(local_14);
+  if (iVar1 == 1) {
+    puts("Good job mate, now go keygen me.");
+  }
+  else {
+    puts("
+
+
+
+
+and then mods it with 0x4c7 (or 1223 in decimal).  Assuming it returns true (1), the value "Good job mate, now go keygen me." is printed, indicating a successful input.
